@@ -21,6 +21,7 @@ public class IndeksNajmanjegBroja {
 
 
         }
+        System.out.println("Index je");
 
         return index;
 
