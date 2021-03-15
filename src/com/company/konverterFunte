@@ -1,0 +1,19 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class KonverterFunte {
+    public static void main(String[] args) {
+         kursFunte = 2.20;
+        double rezultat = 0;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Pretvoriti funte u konvertibilne marke");
+        double funte = scanner.nextDouble();
+        rezultat = funte * kursFunte;
+        System.out.println("Odgovara vrijednosti od " + rezultat + "BAM ") ;
+
+
+
+    }
+
+}
